@@ -1,0 +1,17 @@
+{
+  "name": "websocket-server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "serve": "bun --inspect --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.4",
+    "bun-types": "latest",
+    "cookie-parser": "^1.4.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
